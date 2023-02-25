@@ -1,0 +1,16 @@
+.setting-container {
+  display: flex;
+  height: 100%;
+}
+.setting-container-inner-left {
+  width: 75%;
+  height: 100%;
+  padding: 30px 30px;
+  overflow-y: scroll;
+}
+.setting-container-inner-right {
+  width: 35%;
+}
+.setting-container-inner-left::-webkit-scrollbar {
+  display: none;
+}

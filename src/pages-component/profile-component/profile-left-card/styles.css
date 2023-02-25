@@ -1,0 +1,64 @@
+.profile-left-top-card-container {
+  margin-top: 50px;
+}
+.profile-left-top-card-add-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border: 1px dashed #364963;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-image: url(../../../assests/images/dashed.svg) 1 round;
+}
+.profile-left-top-card-add-profile:hover > img,
+.profile-left-top-card-add-profile:hover > span {
+  opacity: 0.3;
+}
+.profile-left-top-card-add-profile > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 13px;
+  line-height: 17px;
+  margin-left: 10px;
+  color: #b3d1e9;
+}
+.profile-left-card {
+  background: rgba(56, 110, 180, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.profile-left-card.active-profile {
+  background: rgba(56, 110, 180, 0.35);
+  border-right: 3px solid #6f93b6;
+  border-radius: 5px 0px 0px 5px;
+}
+.profile-left-card > h2 {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+}
+.profile-counter {
+  display: flex;
+  align-items: center;
+  background: var(--app-blue);
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+.profile-counter > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary);
+}
+.profile-scroll-height {
+  height: 770px;
+  overflow-y: scroll;
+}

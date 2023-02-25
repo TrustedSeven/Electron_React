@@ -1,0 +1,15 @@
+.captcha-page-container {
+  height: 100%;
+  overflow-y: scroll;
+}
+.captcha-page-container::-webkit-scrollbar {
+  display: none;
+}
+.captcha-top-sticky {
+  position: sticky;
+  top: 0;
+  padding: 20px 20px 10px 20px;
+  z-index: 10;
+  background: var(--app-bg);
+  margin: 0px 20px;
+}

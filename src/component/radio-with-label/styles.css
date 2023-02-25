@@ -1,0 +1,12 @@
+.option-with-radio {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+.option-with-radio > span {
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+  font-family: SF-400;
+  color: var(--primary);
+}

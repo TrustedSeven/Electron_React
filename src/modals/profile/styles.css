@@ -1,0 +1,68 @@
+.profile-card-slider-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+}
+.profile-card-slider-wrapper > img {
+  height: 8px;
+}
+.profile-modal-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: var(--app-card);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: all 0.5s linear;
+  cursor: pointer;
+}
+.profile-modal-btn:hover {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+.profile-modal-btn.active-screen {
+  background: #386eb4;
+  border-radius: 5px;
+}
+.profile-modal-btn.active-screen > span {
+  color: var(--primary);
+}
+.profile-modal-btn > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #598dc5;
+}
+
+.custom-profile-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-address-same {
+  display: flex;
+  align-items: center;
+}
+.profile-address-same > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+  margin: 0px 20px;
+}
+/* cvv style */
+.cvv-card-holder {
+  width: 20%;
+}
+.flex-half.cvv-card-holder > .input-field-container {
+  width: 100%;
+}
+.flex-half.cvv-card-holder > .input-field-container > .input-field-box > input {
+  width: 100%;
+}
+.flex-half.postal-input > div > div > input {
+  width: 45%;
+}

@@ -1,0 +1,113 @@
+.account-table-container {
+  margin-top: 20px;
+}
+.account-table-scroll {
+  overflow-y: hidden;
+  padding-right: 5px;
+}
+.account-table-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.account-table-scroll::-webkit-scrollbar-thumb {
+  background: var(--app-scroll-thumb);
+  border-radius: 10px;
+}
+.account-table-stick-header {
+  display: flex;
+  background: #131b32;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  margin-bottom: 5px;
+}
+.account-table-stick-header.body {
+  position: static;
+  background: #10172c;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+.account-table-stick-header > div {
+  font-style: normal;
+  font-family: SF-400;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(89, 141, 197, 0.5);
+}
+.account-table-stick-header > div:last-of-type {
+  color: var(--app-blue);
+}
+.account-table-stick-header.body > div {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary);
+}
+.account-table-stick-header.body > div:nth-child(3) > input {
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary);
+  background: transparent;
+  pointer-events: none;
+}
+.account-table-stick-header.body > div:nth-child(3) > input[type="password"] {
+  letter-spacing: 2px;
+}
+.account-table-stick-header > div:nth-child(1) {
+  width: 10%;
+}
+.account-table-stick-header > div:nth-child(2),
+.account-table-stick-header > div:nth-child(3) {
+  width: 25%;
+}
+.account-table-stick-header > div:nth-child(4) {
+  width: 45%;
+  text-align: right;
+}
+
+/* table row action css*/
+.account-table-row-actions {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 3px;
+  width: 70px;
+  padding: 6px 0px;
+  justify-content: center;
+  margin-left: auto;
+}
+.account-table-row-actions > img {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  height: 15px;
+}
+.account-table-row-actions > img:hover {
+  transform: scale(1.1);
+}
+.account-table-row-actions > img:last-of-type {
+  margin-left: 15px;
+}
+/* SESSION TABLE ROW CSS */
+.account-table-stick-header.session-table > div:nth-child(2) {
+  width: 30%;
+}
+.account-table-stick-header.session-table > div:nth-child(3) {
+  width: 25%;
+}
+.account-table-stick-header.session-table > div:nth-child(4) {
+  width: 30%;
+  text-align: left;
+}
+.account-table-stick-header.session-table > div:last-of-type {
+  width: 10%;
+  text-align: right;
+}

@@ -1,0 +1,81 @@
+.captcha-card-container {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  width: 32%;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.captcha-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.captcha-card-title {
+  display: flex;
+  align-items: center;
+}
+
+.captcha-card-title {
+  display: flex;
+}
+.captcha-card-title > h3 {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--primary);
+  margin-right: 10px;
+}
+.captcha-card-title > input {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--primary);
+  user-select: none;
+  padding: 0px 5px;
+  max-width: 260px;
+}
+.captcha-card-top-trash {
+  background: rgba(240, 85, 85, 0.15);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.captcha-card-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.captcha-card-bottom > .captcha-card-opener {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 10px;
+  width: 50%;
+  border-radius: 5px;
+}
+.captcha-card-bottom > .captcha-card-opener:first-of-type {
+  background: rgba(111, 206, 109, 0.15);
+}
+.captcha-card-bottom > .captcha-card-opener:first-of-type > span {
+  color: var(--app-green);
+}
+.captcha-card-bottom > .captcha-card-opener:not(:first-of-type) {
+  margin-left: 10px;
+  background: rgba(240, 85, 85, 0.15);
+}
+.captcha-card-bottom > .captcha-card-opener:not(:first-of-type) > span {
+  color: var(--app-red);
+}
+.captcha-card-bottom > .captcha-card-opener > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+}

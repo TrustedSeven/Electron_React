@@ -1,0 +1,67 @@
+.app {
+  height: 100vh;
+  display: flex;
+}
+.app-static-side {
+  background: var(--sidebar-bg);
+  height: 100%;
+  width: 256px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.app-dynamic-side {
+  height: 100%;
+  background-color: var(--app-bg);
+  width: calc(1516px - 256px);
+}
+
+.btn {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.btn:hover {
+  opacity: 0.5;
+}
+.button {
+  cursor: pointer;
+}
+.app-dgraggable-tab {
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 256px;
+  z-index: 20;
+  cursor: grab;
+  -webkit-app-region: drag;
+}
+.icon-btn {
+  transition: transform 0.5s ease-in-out;
+}
+.icon-btn:hover {
+  transform: scale(1.2);
+}
+
+/* REACT TOASTIFY CSS */
+.react-toastify-container {
+  width: 252px !important;
+}
+.react-toastify-container > div {
+  border-radius: 999px;
+  padding: 10px;
+  min-height: 55px;
+  box-shadow: 0px 0px 16px 0px #00000040;
+}
+.react-toastify-container > div > button {
+  display: none !important;
+}
+.react-toastify-container > div > .Toastify__toast-body > div:first-of-type {
+  display: none !important;
+}
+.react-toastify-container > div > .Toastify__toast-body > div:last-of-type {
+  text-align: center;
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #386eb4;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --sidebar-bg: #10172c;
+  --app-bg: rgb(17, 25, 48);
+  --primary: #ffffff;
+  --secondary: #364963;
+  --app-scroll-thumb: #386eb4;
+  --app-blue: #598dc5;
+  --app-red: #f05555;
+  --app-yellow: #f0c555;
+  --app-green: #6fce6d;
+  --app-card: #17233f;
+}
+
+@font-face {
+  font-family: SF-700;
+  src: url(./assests/fonts/SFUIText-Bold.ttf);
+}
+@font-face {
+  font-family: SF-600;
+  src: url(./assests/fonts/SFUIText-Semibold.ttf);
+}
+@font-face {
+  font-family: SF-500;
+  src: url(./assests/fonts/SFUIText-Medium.ttf);
+}
+@font-face {
+  font-family: SF-400;
+  src: url(./assests/fonts/SFUIText-Regular.ttf);
+}
+.text-400 {
+  font-family: SF-400;
+}
+.text-500 {
+  font-family: SF-500;
+}
+.text-600 {
+  font-family: SF-600;
+}
+.text-700 {
+  font-family: SF-700;
+}
+
+/* HIDE DEFAULT ARROW WHEN INPUT TYPE IS NUMBER */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,16 @@
+.dashboard-container {
+  display: flex;
+  height: 100%;
+  overflow-y: scroll;
+}
+.dashboard-container::-webkit-scrollbar {
+  display: none;
+}
+.dashboard-container > .dashboard-container-left {
+  width: 65%;
+}
+.dashboard-container > .dashboard-container-right {
+  width: 35%;
+  padding: 20px;
+  margin-right: 10px;
+}

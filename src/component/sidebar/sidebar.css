@@ -1,0 +1,101 @@
+.sidebar-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.sidebar-container > img {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
+.sidebar-container-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 20px;
+  height: calc(100% - 20px);
+}
+.sidebar-container-inner > img {
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.padding-horizontal {
+  padding: 0px 15px;
+}
+
+.sidebar-container-inner-margintop {
+  margin-top: 20px;
+}
+.sidebar-time-container {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 5px;
+  width: 120px;
+  padding: 9px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.sidebar-time-container > span {
+  color: var(--primary);
+  font-size: 13px;
+}
+.sidebar-link-container {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.sidebar-container-bottom-fixed {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+.sidebar-container-bottom-version {
+  display: flex;
+  align-items: center;
+  background: var(--app-red);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  margin: 0px 15px;
+  padding: 15px 7px;
+  justify-content: center;
+}
+.sidebar-container-bottom-version > span {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary);
+  margin-left: 10px;
+}
+.sidebar-container-bottom-user-profile {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+  margin-top: 10px;
+}
+.sidebar-container-bottom-user-profile > div {
+  margin-left: 10px;
+}
+.sidebar-container-bottom-user-profile > div > p:first-of-type {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--primary);
+}
+.sidebar-container-bottom-user-profile > div > p:last-of-type {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidebar-container-bottom-user-profile > .user-status-indicator {
+  height: 5px;
+  width: 5px;
+  background: var(--app-green);
+  margin-left: auto;
+  border-radius: 50%;
+}
+.sidebar-user-name-wrapper {
+  margin-left: 20px;
+}

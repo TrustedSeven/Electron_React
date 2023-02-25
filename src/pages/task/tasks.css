@@ -1,0 +1,19 @@
+.task-container {
+  display: flex;
+  height: 100%;
+}
+.task-container-left {
+  width: 20%;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgb(19, 27, 50);
+  height: 100%;
+  padding: 15px 15px 0px 15px;
+  overflow-y: scroll;
+}
+.task-container-right {
+  width: 80%;
+  padding: 20px 30px;
+}
+.task-container-left::-webkit-scrollbar {
+  display: none;
+}

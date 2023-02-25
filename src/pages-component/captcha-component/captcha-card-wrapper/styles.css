@@ -1,0 +1,17 @@
+.captcha-card-wrapper {
+  display: flex;
+  height: 80vh;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  align-content: flex-start;
+  padding-right: 10px;
+  margin: 0px 20px;
+  margin-top: 10px;
+}
+.captcha-card-wrapper::-webkit-scrollbar {
+  width: 5px;
+}
+.captcha-card-wrapper::-webkit-scrollbar-thumb {
+  background: var(--app-scroll-thumb);
+  border-radius: 10px;
+}

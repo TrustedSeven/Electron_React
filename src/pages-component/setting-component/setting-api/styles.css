@@ -1,0 +1,66 @@
+.setting-api {
+  margin-top: 10px;
+}
+.align-center {
+  align-items: center;
+}
+.align-center > p,
+.align-center > div > p {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--primary);
+  margin-right: 20px;
+}
+.flex-row.align-center.full-width > div {
+  width: 100%;
+}
+
+.flex-half.fix-width {
+  width: 100px;
+}
+.setting-bottom {
+  margin-top: 10px;
+}
+.setting-sound-btn.deactivation-key {
+  border: 2px solid var(--app-red) !important;
+}
+.setting-sound-btn.deactivation-key > span {
+  color: var(--app-red);
+}
+.current-version {
+  font-style: normal;
+  font-family: SF-600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  color: #5a92c9;
+  align-items: center;
+  width: 48%;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 5px;
+}
+
+.flex-row > .flex-half.margin-left {
+  margin-left: 10px;
+}
+
+.setting-open-logs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+.setting-open-logs > span {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+}
+#other-text {
+  margin-top: 10px;
+}

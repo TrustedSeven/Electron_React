@@ -1,0 +1,113 @@
+export const initialState = {
+  status: "idle",
+  appVersion: "0.0.0",
+  updateAvailableVersion: "",
+  selectItem: {},
+  loggedUser: {},
+  displayPassword: false,
+  selectedItemList: [],
+  tempStorage: {},
+  toasterCounter: 0,
+  sendToaster: {},
+  tempTaskStorage: {},
+  // Tasks initial Modal State
+  taskModalState: {
+    canadiancomputers: false,
+    canadiantire: false,
+    ssense: false,
+    ebgames: false,
+    sdm: false,
+    tru: false,
+    chapters: false,
+    amazon: false,
+    bestbuyca: false,
+  },
+  profileModalState: false,
+  profileGroupModalState: false,
+  proxyGroupModalState: false,
+  addAcountModalState: false,
+  taskGroupModalState: false,
+  editSingleProxyModalState: false,
+  editGroupNameModal: { state: false, value: "" },
+  editTaskGroupModlaState: false,
+  // LIST
+  isStartAllTasks: false,
+  proxyGroupList: [],
+  taskGroupList: {},
+  profileList: [],
+  accountsGroupList: [
+    {
+      id: 1235,
+      title: "Canada Computers",
+      accountList: [],
+      passwordStatus: false,
+    },
+    { id: 221, title: "SSENSE", accountList: [], passwordStatus: false },
+    {
+      id: 13245,
+      title: "Walmart CA",
+      accountList: [],
+      passwordStatus: false,
+    },
+  ],
+  sessionsGroupList: [
+    {
+      id: 1232345,
+      title: "Amazon CA",
+      sessionList: [],
+      passwordStatus: false,
+    },
+    {
+      id: 222342341,
+      title: "Microsoft CA",
+      sessionList: [],
+      passwordStatus: false,
+    },
+  ],
+  captchaCardsList: [],
+  openSolverModal: {},
+  profileCardDisplay: "flex",
+  // EDIT MODAL TRRIGER
+  editModalTrigered: "",
+  settingState: {
+    user: {
+      userName: "stephanie",
+      discriminator: "#0002",
+      userAvatar: "",
+      licenseExpireInDays: "42",
+      licenseRenewDate: "Dec. 7 2021",
+      licenseKey: "123 123456 12345678 12345",
+    },
+    webhook: {
+      webhook: "",
+      isWebhookDecline: false,
+    },
+    notification: {
+      currentSound: "MoneyLonger.mp3",
+      isNotification: false,
+      soundType: "mp3",
+      soundLocation: "",
+      soundFileSize: 0,
+    },
+    captchaSolvingServiceConfig: {
+      antiCaptchaKey: "",
+      captcha2Key: "",
+      capMonster: "",
+      isCaptchaSolvingService: false,
+    },
+
+    aycdKeyConfig: { aycdApiKey: "", aycdApiAccessToken: "", isAYCD: false },
+  },
+  dashboardState: {
+    checkoutTable: [],
+    analytics: {
+      xAxis: ["Non 5", "Nov 6", "Nov 7", "Nov 8", "Nov 9"],
+      yAxis: [22, 15, 10, 40, 45, 50, 30, 20],
+    },
+    statistics: {
+      totalCheckout: 25,
+      totalCarts: 38,
+      totaldecline: 13,
+    },
+  },
+};

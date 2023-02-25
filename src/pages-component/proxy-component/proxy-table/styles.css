@@ -1,0 +1,81 @@
+.account-table-scroll.proxy {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+/* header css */
+.proxy-table-stick-header {
+  display: flex;
+  background: #131b32;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 15px;
+  position: sticky;
+  top: 0;
+  margin-bottom: 5px;
+}
+.proxy-table-stick-header.body {
+  position: static;
+  background: #10172c;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  align-items: center;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+}
+.proxy-table-stick-header > div {
+  font-style: normal;
+  font-family: SF-400;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(89, 141, 197, 0.5);
+}
+
+.proxy-table-stick-header > div:last-of-type {
+  color: var(--app-blue);
+  text-align: right;
+}
+.proxy-table-stick-header.body > div {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.proxy-table-stick-header > div:nth-child(1) {
+  width: 30%;
+}
+.proxy-table-stick-header > div:nth-child(2) {
+  width: 25%;
+}
+.proxy-table-stick-header > div:nth-child(3) {
+  width: 25%;
+}
+.proxy-table-stick-header > div:nth-child(4) {
+  width: 20%;
+}
+
+/* action css */
+.proxy-table-row-actions {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 3px;
+  width: 75px;
+  padding: 6px 0px;
+  justify-content: center;
+  margin-left: auto;
+}
+.proxy-table-row-actions > img {
+  height: 15px;
+  object-fit: contain;
+}
+.proxy-table-row-actions > img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.proxy-table-row-actions > img:nth-child(2) {
+  margin: 0px 8px;
+}

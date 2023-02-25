@@ -1,0 +1,16 @@
+.profile-card-wrapper {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  height: 80.4vh;
+  align-content: flex-start;
+  overflow-y: scroll;
+}
+
+.profile-card-wrapper::-webkit-scrollbar {
+  width: 5px;
+}
+.profile-card-wrapper::-webkit-scrollbar-thumb {
+  background: var(--app-scroll-thumb);
+  border-radius: 10px;
+}

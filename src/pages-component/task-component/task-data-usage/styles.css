@@ -1,0 +1,58 @@
+.task-left-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-left-top-container > h1 {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--primary);
+}
+.task-download-btn {
+  background: #18223b;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.task-data-usage-container {
+  background: #18223b;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.task-data-usage-container > h2 {
+  font-style: normal;
+  color: var(--primary);
+  font-size: 12px;
+  line-height: 14px;
+}
+.task-usage-stats {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.task-usage-stats > span:nth-child(1) {
+  background: var(--app-scroll-thumb);
+  width: 3px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 999px;
+}
+.task-usage-stats > span:nth-child(2) {
+  font-style: normal;
+  color: var(--primary);
+  font-size: 14px;
+  line-height: 17px;
+}
+.task-usage-stats > span:nth-child(3) {
+  font-style: normal;
+  color: var(--primary);
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 5px;
+}
+.task-container-divider {
+  background: rgba(255, 255, 255, 0.1);
+  height: 1px;
+  margin: 15px 0px;
+}

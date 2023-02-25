@@ -1,0 +1,133 @@
+.setting-notification-container > h2 {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--primary);
+}
+.setting-notification-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.setting-test-btn {
+  display: flex;
+  align-items: center;
+  background: var(--app-green);
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+.setting-test-btn > span,
+.setting-notification-actions > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+  margin-left: 10px;
+}
+#notification {
+  margin: 10px 0px;
+}
+.flex-row {
+  display: flex;
+}
+.flex-half {
+  width: 50%;
+}
+.flex-half > h4 {
+  font-style: normal;
+  font-family: SF-400;
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--primary);
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.setting-sound-details {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 99%;
+}
+.setting-sound-details > span:first-of-type {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5a92c9;
+}
+.setting-sound-details > span:last-of-type {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+  margin-left: 20px;
+}
+.setting-sound-details > img {
+  margin-left: auto;
+}
+.setting-sound-btns {
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+.setting-sound-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  padding: 6px;
+  border-radius: 5px;
+}
+.setting-sound-btn > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--app-green);
+}
+.setting-sound-btns > .setting-sound-btn:first-of-type {
+  border: 2px solid var(--app-green);
+}
+.setting-sound-btns > .setting-sound-btn:first-of-type > span {
+  margin-left: 10px;
+}
+
+.setting-sound-btns > .setting-sound-btn:last-of-type > span {
+  color: var(--app-blue);
+}
+.setting-sound-btns > .setting-sound-btn:last-of-type {
+  background: var(--app-card);
+}
+.setting-sound-change {
+  height: 20px;
+  width: 20px;
+  margin-left: auto;
+  position: relative;
+}
+.setting-sound-change > input {
+  width: 100%;
+  height: 100%;
+  /* -webkit-appearance: none; */
+  opacity: 0;
+  position: absolute;
+}
+.setting-sound-change > label {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+.setting-sound-change > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,34 @@
+.setting-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.setting-top-container > h1 {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--primary);
+}
+.setting-top-btns-wrapper {
+  display: flex;
+  align-items: center;
+}
+.setting-top-btn {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  background: var(--app-card);
+  border-radius: 5px;
+}
+.setting-top-btn > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 13px;
+  line-height: 17px;
+  color: var(--app-blue);
+  margin-left: 10px;
+}
+.setting-top-btn:last-of-type {
+  margin-left: 10px;
+}

@@ -1,0 +1,124 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.1);
+}
+.modal-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  padding: 30px 30px;
+  background: #131b32;
+  border-radius: 5px;
+  border-top: 5px solid #b3d1e9;
+  transform: translate(-50%, -50%);
+  background-image: url(../../../assests/images/modal-svg.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0px;
+  background-size: 100% contain;
+}
+.modal-inner.amazon-modal {
+  top: 45%;
+  transform: translate(-45%, -50%);
+}
+.modal-top {
+  display: flex;
+  align-items: center;
+}
+.modal-top > h3 {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--primary);
+  margin-right: 20px;
+}
+.modal-top > span {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: SF-600;
+  color: #b3d1e9;
+}
+.modal-cancel-btn {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: rgba(56, 110, 180, 0.15);
+  border-radius: 5px;
+  width: 100px;
+  justify-content: center;
+  height: 35px;
+}
+.modal-cancel-btn > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #598dc5;
+}
+.modal-cancel-btn:hover {
+  background: rgba(56, 110, 180, 0.3);
+}
+
+.modal-bottom-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.modal-counter-btn {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  background: rgba(56, 110, 180, 0.15);
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 10px;
+  height: 35px;
+}
+.empty-counter {
+  width: 110px;
+}
+.modal-counter-btn > input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 60px;
+  color: var(--primary);
+  text-align: center;
+  width: 100%;
+}
+
+.modal-counter-btn > img {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.modal-counter-btn > img:hover {
+  transform: scale(1.1);
+}
+
+.inputfield-custom-label {
+  display: flex;
+  align-items: center;
+  margin: 4px 0px 6px 0px;
+}
+.inputfield-custom-label > label {
+  font-style: normal;
+  color: var(--primary);
+  font-family: SF-500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 20px;
+}
+.modal-bottom-save {
+  width: 200px;
+}

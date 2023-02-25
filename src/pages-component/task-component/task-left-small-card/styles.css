@@ -1,0 +1,121 @@
+.task-small-card-container {
+  background: var(--app-card);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  border: 0.5px solid transparent;
+}
+.task-small-card-container.active-task-card {
+  border: 0.5px solid #386eb4;
+}
+.task-small-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-small-card-top > h3 {
+  font-style: normal;
+  color: var(--primary);
+  font-size: 14px;
+  line-height: 17px;
+}
+.task-small-card-counter {
+  background: rgba(56, 110, 180, 0.35);
+  padding: 3px 10px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+.task-small-card-counter > span {
+  font-style: normal;
+  color: var(--primary);
+  font-size: 12px;
+  line-height: 14px;
+}
+.task-small-card-counter.active {
+  background-color: var(--app-blue);
+}
+.task-small-card-container > p {
+  font-style: normal;
+  color: var(--app-blue);
+  font-size: 10px;
+  line-height: 12px;
+  margin: 5px 0px;
+}
+p.task-schedule-status {
+  font-style: normal;
+  color: var(--primary);
+  font-size: 10px;
+  line-height: 12px;
+  font-family: SF-500;
+}
+.task-small-card-btn-wrapper {
+  display: flex;
+}
+.task-small-card-btn {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding: 3px 10px;
+}
+.task-small-card-btn > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 10px;
+  line-height: 12px;
+  margin-left: 5px;
+  text-overflow: ellipsis;
+}
+.task-small-card-btn:nth-child(1) {
+  border: 0.5px solid var(--app-green);
+  background: rgba(111, 206, 109, 0.1);
+  border-radius: 2px;
+}
+.task-small-card-btn:nth-child(1) > span {
+  color: var(--app-green);
+}
+.task-small-card-btn:nth-child(2) {
+  background: rgba(240, 197, 85, 0.1);
+  border: 0.5px solid #f0c555;
+
+  border-radius: 2px;
+}
+.task-small-card-btn:nth-child(2) > span {
+  color: var(--app-yellow);
+}
+.task-small-card-btn:nth-child(3) {
+  background: rgba(240, 85, 85, 0.1);
+  border: 0.5px solid #f05555;
+  border-radius: 2px;
+}
+.task-small-card-btn:nth-child(3) > span {
+  color: var(--app-red);
+}
+
+/* task dot status css */
+.task-dot-status {
+  width: 7px;
+  height: 7px;
+  background: #f05555;
+  border-radius: 3.5px;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translateY(-50%);
+}
+.task-small-card-scroll-container {
+  height: 770px;
+  overflow-y: scroll;
+}
+/* allpages left side ghroup scroll css goes here */
+.task-small-card-scroll-container::-webkit-scrollbar,
+.profile-scroll-height::-webkit-scrollbar,
+.profile-scroll-height.proxies::-webkit-scrollbar {
+  display: none;
+}
+.profile-scroll-height.proxies {
+  height: 767px;
+  overflow-y: scroll;
+}

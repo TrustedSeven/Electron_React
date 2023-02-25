@@ -1,0 +1,381 @@
+.input-field-container > label {
+  font-style: normal;
+  font-family: SF-400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+}
+.input-field-box {
+  background: rgba(255, 255, 255, 0.02);
+  /* border: 1px solid rgba(255, 255, 255, 0.15); */
+  border-radius: 5px;
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+}
+/* INPUT CSS */
+.input-field-box > input,
+.input-field-box > textarea {
+  background: transparent;
+  outline: none;
+  border: none;
+  flex: 1;
+  padding: 15px 7px;
+  padding-left: 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-style: normal;
+  color: var(--primary);
+  font-family: SF-400;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+}
+.input-field-box > input:focus,
+.input-field-box > textarea:focus,
+.e-searcher > input:focus {
+  border: 1px solid #386eb4;
+}
+
+.input-field-box > input::placeholder,
+.input-field-box > textarea::placeholder {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 17px;
+  font-family: SF-400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-field-box > textarea {
+  resize: none;
+  /* margin-right: 5px; */
+}
+.input-field-box > textarea::-webkit-scrollbar {
+  width: 5px;
+}
+.input-field-box > textarea::-webkit-scrollbar-thumb {
+  background: var(--app-scroll-thumb);
+  border-radius: 10px;
+}
+/* DATE PICKER CSS */
+.react-date-picker {
+  border-radius: 5px;
+}
+
+.react-date-picker__wrapper {
+  border: none !important;
+}
+.date-picker-container {
+  padding: 8px 8px 10px 8px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.react-date-picker__inputGroup__divider {
+  display: none;
+  /* font-style: normal;
+  font-size: 13px;
+  line-height: 17px;
+  font-family: SF-400;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0px 1px; */
+}
+
+/* .react-date-picker__inputGroup__input:not(:focus):valid
+  ~ .react-date-picker__inputGroup__divider {
+  opacity: 1;
+} */
+
+.react-date-picker__inputGroup__input {
+  font-style: normal !important;
+  font-size: 13px !important;
+  line-height: 17px !important;
+  font-family: SF-400 !important;
+  color: var(--primary);
+  outline: none !important;
+  border: none !important;
+}
+.react-date-picker__inputGroup__input::placeholder {
+  font-style: normal !important;
+  font-size: 13px !important;
+  line-height: 17px !important;
+  font-family: SF-400 !important;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* datepicker css overwrite */
+.react-calendar {
+  background: #181f36 !important;
+  border: thin solid #386eb4 !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5) !important;
+}
+.react-calendar__tile {
+  width: 32px !important;
+  height: 32px !important;
+}
+.react-calendar__tile:disabled {
+  background: var(--app-bg) !important;
+  opacity: 0.5;
+  pointer-events: none !important;
+}
+
+.react-calendar__tile > abbr {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: SF-400;
+  font-style: normal;
+  font-size: 10px;
+}
+.react-calendar__month-view__weekdays__weekday > abbr {
+  color: var(--primary);
+  font-family: SF-400;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.react-date-picker__inputGroup__input:invalid {
+  background: transparent !important;
+  outline: none !important;
+}
+.react-calendar__navigation__label__labelText {
+  font-style: normal;
+  font-family: SF-600;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary);
+}
+.react-calendar__navigation {
+  margin-bottom: 0px !important;
+}
+.react-calendar__navigation__arrow {
+  background: transparent !important;
+  color: var(--primary) !important;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.react-calendar__tile--active {
+  background: #386eb4;
+  border-radius: 5px;
+  width: 32px !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.react-calendar__tile--now {
+  border-radius: 5px;
+  background: transparent !important;
+  font-family: SF-700;
+}
+.react-calendar__tile:hover {
+  background: #386eb4 !important;
+  border-radius: 5px;
+  width: 32px !important;
+  height: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  opacity: 0;
+}
+
+.react-calendar {
+  width: 300px !important;
+}
+.react-date-picker--disabled {
+  background: transparent !important;
+  color: transparent !important;
+}
+
+.react-calendar__navigation__next2-button,
+.react-calendar__navigation__prev2-button {
+  display: none !important;
+}
+.react-calendar__navigation__label {
+  pointer-events: none !important;
+  top: 20px;
+  position: absolute;
+  left: 5%;
+}
+.react-calendar__navigation__prev-button {
+  position: absolute;
+  left: 40%;
+  top: 20px;
+}
+.react-calendar__navigation__next-button {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+}
+
+/* custom date and time picker */
+.date-time-picker-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+#date-picker-timer-icon {
+  position: absolute;
+  top: 67px;
+  z-index: 200;
+  left: 260px;
+}
+
+.react-date-picker__calendar--closed > #date-picker-timer-icon {
+  display: block;
+}
+.date-picker-wrapper {
+  width: 100%;
+}
+
+.time-picker-component-wrapper {
+  position: absolute;
+  top: 25px;
+}
+
+/* CUSTOM SELECT FOR PROFILE  */
+.react-select-dropdown-container {
+  position: relative;
+}
+.react-select-dropdown-container > img {
+  opacity: 0.5;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  height: 6px;
+  transition: transform 0.5s ease-in-out;
+}
+.dropdown-items {
+  margin-left: 2em;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+/* sdasd */
+
+.e-multi-select-list-wrapper {
+  background-color: "#10172c" !important;
+  border: 1px solid #386eb4 !important;
+  overflow-y: scroll !important;
+  max-height: 250px !important;
+}
+
+.e-multi-select-list-wrapper::-webkit-scrollbar {
+  width: 5px !important;
+}
+.e-multi-select-list-wrapper::-webkit-scrollbar-thumb {
+  border-radius: "10px";
+  background-color: "#386EB4";
+}
+.e-searcher {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.e-multiselect.e-checkbox.e-multi-select-wrapper .e-searcher {
+  pointer-events: unset !important;
+}
+.e-searcher > input {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  outline: none !important;
+  border: none !important;
+  flex: 1 !important;
+  padding: 15px 7px !important;
+  padding-left: 20px !important;
+  border-radius: 5px !important;
+  font-size: 13px !important;
+  font-style: normal !important;
+  color: var(--primary) !important;
+  font-family: SF-400 !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-sizing: border-box !important;
+  pointer-events: unset !important;
+  overflow-x: hidden !important;
+}
+.e-searcher > input::placeholder {
+  font-style: normal !important;
+  font-size: 13px !important;
+  line-height: 17px !important;
+  font-family: SF-400 !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.e-delim-view {
+  width: 95% !important;
+  position: absolute !important;
+  top: 12px !important;
+  left: 20px !important;
+  font-size: 13px !important;
+  font-style: normal !important;
+  color: var(--primary) !important;
+  font-family: SF-400 !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  overflow-x: hidden !important;
+  -webkit-text-fill-color: var(--primary) !important;
+}
+.e-remain {
+  font-size: 13px !important;
+  font-style: normal !important;
+  color: var(--primary) !important;
+  font-family: SF-400 !important;
+}
+.e-dropdownbase .e-list-item {
+  background-color: #10172c !important;
+}
+.e-dropdownbase .e-list-item,
+.e-dropdownbase .e-list-item.e-item-focus {
+  font-size: 13px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-family: SF-400;
+  width: 100%;
+}
+.e-chips-close.e-close-hooker {
+  display: none !important;
+}
+#e-mult-select-dropdown-icon {
+  position: absolute !important;
+  top: 53% !important;
+  height: 14px;
+  right: 0px !important;
+  z-index: 100;
+}
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after {
+  bottom: 0px !important;
+  height: 0px !important;
+  position: unset !important;
+  background: unset !important;
+}
+.e-input-group.e-control-wrapper:not(.e-float-icon-left) {
+  border: none !important;
+}
+.e-input-group.e-control-wrapper:not(.e-float-icon-left) {
+  margin-bottom: 0px !important;
+}
+.e-dropdownbase .e-list-item.e-item-focus,
+.e-dropdownbase .e-list-item.e-active,
+.e-dropdownbase .e-list-item.e-active.e-hover,
+.e-dropdownbase .e-list-item.e-hover {
+  color: var(--primary) !important;
+  font-size: 13px;
+  font-style: normal;
+  font-family: SF-400;
+}
+
+.e-outline.e-input-group.e-input-focus:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled):not(.e-float-icon-left),
+.e-outline.e-input-group.e-input-focus.e-control-wrapper:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled):not(.e-float-icon-left),
+.e-outline.e-input-group.e-input-focus:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled),
+.e-outline.e-input-group.e-control-wrapper.e-input-focus:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled) {
+  border-color: #b1bd15 !important;
+  box-shadow: inset 1px 1px #b1bd15, inset -1px 0 #b1bd15, inset 0 -1px #b1bd15;
+}

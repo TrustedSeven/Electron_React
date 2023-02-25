@@ -1,0 +1,19 @@
+.app-control-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 9999;
+  right: 20px;
+  top: 10px;
+  -webkit-app-region: no-drag;
+}
+.app-control-btn-wrapper > img {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.app-control-btn-wrapper > img:last-of-type {
+  margin-left: 20px;
+}
+.app-control-btn-wrapper > img:hover {
+  transform: scale(1.02);
+}

@@ -1,0 +1,101 @@
+.profile-table-scroll {
+  margin: 10px 0px 0px;
+  overflow-y: scroll;
+}
+.profile-table-scroll::-webkit-scrollbar,
+.profile-table-scroll > .List::-webkit-scrollbar {
+  width: 5px;
+}
+.profile-table-scroll::-webkit-scrollbar-thumb,
+.profile-table-scroll > .List::-webkit-scrollbar-thumb {
+  background: var(--app-scroll-thumb);
+  border-radius: 10px;
+}
+.profile-table-sticky-header {
+  display: flex;
+  background: #131b32;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0px;
+}
+.profile-table-sticky-header > div {
+  font-style: normal;
+  font-family: SF-400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #364963;
+}
+.profile-table-sticky-header > div:nth-child(1) {
+  width: 15%;
+}
+.profile-table-sticky-header > div:nth-child(2) {
+  width: 15%;
+}
+.profile-table-sticky-header > div:nth-child(3) {
+  width: 20%;
+}
+.profile-table-sticky-header > div:nth-child(4) {
+  width: 25%;
+}
+.profile-table-sticky-header > div:nth-child(5) {
+  width: 25%;
+}
+.profile-table-sticky-header > div:nth-child(6) {
+  width: 15%;
+  color: #598dc5;
+  text-align: right;
+}
+/* table body css */
+.profile-table-sticky-header.body {
+  position: static;
+  background: #10172c;
+  border-radius: 5px;
+  margin: 5px 0px;
+  align-items: center;
+  padding: 7px 20px;
+  border: 1px solid transparent;
+}
+
+.profile-table-sticky-header.body > div {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary);
+}
+.profile-table-row-action-wrapper {
+  display: flex;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 3px;
+  padding: 7px;
+  justify-content: space-between;
+  max-width: 70%;
+  margin-left: auto;
+}
+.profile-table-row-action-wrapper > img {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  height: 15px;
+}
+.profile-table-row-action-wrapper > img:hover {
+  transform: scale(1.2);
+}
+.profile-flex-card-no {
+  display: flex;
+  align-items: center;
+}
+.profile-flex-card-no > div {
+  background: rgba(111, 147, 182, 0.25);
+  border-radius: 2px;
+  padding: 4px 10px;
+}
+.profile-flex-card-no > span {
+  margin-left: 10px;
+}
+.selected-profile-label {
+  margin-right: 12px;
+}

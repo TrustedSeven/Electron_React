@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./captcha.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-top-controller">
+        <img id="modal-minimize" src="./assests/images/minimize.svg" alt="" />
+        <img id="modal-close" src="./assests/images/close.svg" alt="" />
+      </div>
+      <div class="modal-content">
+        <h3 id="captcha-title"></h3>
+        <div class="modal-refresh-btn">
+          <img src="./assests/images/refresh.svg" alt="" />
+          <span>Refresh Solver</span>
+        </div>
+      </div>
+      <p id="captcha-site" class="blue-text"></p>
+      <p id="captcha-proxy" class="blue-text"></p>
+      <div class="modal-image-container">
+        <img src="./assests/images/big-logo.svg" alt="" />
+      </div>
+      <div class="captcha-card-drag-tab"></div>
+    </div>
+
+    <script src="./captcha.js" async defer></script>
+  </body>
+</html>

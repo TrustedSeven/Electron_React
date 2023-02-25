@@ -1,0 +1,7 @@
+#product-container {
+  display: flex;
+  align-items: center;
+}
+#product-container > span {
+  margin-left: 30px;
+}

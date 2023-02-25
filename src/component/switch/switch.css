@@ -1,0 +1,31 @@
+.app-switch-container {
+  display: flex;
+  align-items: center;
+}
+.app-switch-container > input {
+  position: relative;
+  -webkit-appearance: none;
+  width: 52.88px;
+  height: 25px;
+  border-radius: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.5s ease-in-out;
+}
+.app-switch-container > input:checked {
+  background: var(--app-scroll-thumb);
+}
+.app-switch-container > input::before {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: var(--primary);
+  border-radius: 60px;
+  transition: all 0.5s ease-in-out;
+}
+.app-switch-container > input:checked::before {
+  transform: translateX(150%) translateY(-50%);
+}

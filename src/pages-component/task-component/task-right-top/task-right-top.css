@@ -1,0 +1,112 @@
+.task-right-top-container {
+  margin-bottom: 20px;
+}
+.task-right-top-container.taskPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-right-top-container .task-right-top-left-container p {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--app-blue);
+  margin-bottom: 15px;
+}
+.task-right-top-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-right-top-left {
+  display: flex;
+  align-items: center;
+}
+.task-right-top-left > h2 {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--primary);
+  margin-right: 10px;
+}
+.task-right-top-left-btn {
+  background: var(--app-card);
+  border-radius: 5px;
+  margin-right: 7px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+/* .task-right-top-right > span:nth-child(3) {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+}
+.task-right-top-right > span:nth-child(4) {
+
+} */
+/* custom right top css */
+.task-right-top-left-container {
+  width: 50%;
+}
+.task-right-top-right-container {
+  background: var(--app-card);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 330px;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+}
+.task-right-top-right-container-child {
+  width: 35%;
+  height: 100%;
+}
+.task-right-top-right-container-child > span {
+  display: block;
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 11px;
+  line-height: 13px;
+  color: var(--primary);
+  text-align: left;
+}
+.task-right-top-right-container-child > .status {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  white-space: normal;
+}
+
+.task-right-top-right-container-child > .status > span:first-of-type {
+  width: 3.3px;
+  background: var(--app-scroll-thumb);
+  height: 18px;
+  border-radius: 20px;
+  margin-right: 3px;
+}
+.task-right-top-right-container-child > .status > span:nth-child(2),
+.task-right-top-right-container-child > .status > span.used {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--primary);
+  margin-left: 5px;
+}
+.task-right-top-right-container-child > .status > span.proxy-usage {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 13px;
+  line-height: 12px;
+  color: var(--primary);
+  margin-left: 5px;
+}

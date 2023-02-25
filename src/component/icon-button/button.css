@@ -1,0 +1,37 @@
+.button-container {
+  background: var(--app-scroll-thumb);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.button-container > img {
+  height: 14px;
+  object-fit: contain;
+  width: 14px;
+}
+.button-container > span {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0px 10px;
+  color: var(--primary);
+}
+a.button-container {
+  text-decoration: none;
+}
+.button-container:hover {
+  background: rgba(56, 110, 180, 0.3);
+}
+.button-container:hover > span,
+.button-container:hover > img {
+  opacity: 0.3;
+}
+.button-container.custom-btn {
+  padding: 15px;
+}

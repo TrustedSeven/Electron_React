@@ -1,0 +1,46 @@
+.account-left-account-list {
+  margin-top: 10px;
+}
+.account-left-account-list.session {
+  margin-top: 20px;
+}
+.account-left-account-list > h2 {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b3d1e9;
+}
+.accounts-list-scroll {
+  margin-top: 10px;
+}
+.accounts-small-card {
+  display: flex;
+  align-items: center;
+  background: rgba(56, 110, 180, 0.1);
+  border-radius: 5px;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.accounts-small-card.active-account-card {
+  background: #203860;
+  border-radius: 5px;
+}
+.account-details {
+  margin-left: 10px;
+}
+.account-details > .company-name {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary);
+}
+.account-details > p {
+  font-style: normal;
+  font-family: SF-500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #b3d1e9;
+}

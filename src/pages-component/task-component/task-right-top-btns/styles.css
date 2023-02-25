@@ -1,0 +1,76 @@
+.task-right-top-btns-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.task-right-top-btns-left {
+  display: flex;
+}
+.task-right-top-btn-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: #386eb4;
+  padding: 7px 15px;
+}
+.task-right-top-btn-container > img {
+  height: 14px;
+  object-fit: contain;
+}
+.task-right-top-btn-container > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 13px;
+  line-height: 17px;
+  color: var(--primary);
+  margin-left: 10px;
+}
+.task-right-top-search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.task-right-top-search-container > img {
+  height: 14px;
+}
+.task-right-top-search-container > input {
+  background: transparent;
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  font-family: SF-400;
+  font-size: 12px;
+  color: var(--primary);
+}
+.task-right-top-search-container > input::placeholder {
+  font-style: normal;
+  font-family: SF-400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.task-right-top-btns-right {
+  display: flex;
+  align-items: center;
+}
+.task-right-top-btn-container.edit {
+  background: rgba(255, 255, 255, 0.05);
+}
+.task-right-top-btn-container.play {
+  background: rgba(111, 206, 109, 0.05);
+  margin-left: 10px;
+}
+.task-right-top-btn-container.play > span {
+  color: var(--app-green);
+}
+.task-right-top-btn-container.stop {
+  background: rgba(240, 85, 85, 0.05);
+  margin-left: 10px;
+}
+.task-right-top-btn-container.stop > span {
+  color: var(--app-red);
+}

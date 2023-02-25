@@ -1,0 +1,15 @@
+.accounts-export-btn {
+  display: flex;
+  align-items: center;
+  background: var(--app-card);
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+.accounts-export-btn > span {
+  font-style: normal;
+  font-family: SF-700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--app-blue);
+  margin-left: 5px;
+}

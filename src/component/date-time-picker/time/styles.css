@@ -1,0 +1,84 @@
+.time-picker-outer-wrapper {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid #386eb4;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background: #181f36;
+  padding: 20px 15px;
+  margin: 0px auto;
+  user-select: none;
+}
+.time-picker-inner {
+  display: flex;
+  align-items: center;
+}
+
+.time-picker-wrapper > input {
+  font-style: normal;
+  font-size: 45px;
+  line-height: 54px;
+  color: #ffffff;
+  font-family: SF-700;
+  margin: 30px 0px;
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  width: 100%;
+}
+.time-picker-top-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+.time-picker-top-label > img {
+  cursor: pointer;
+}
+.time-picker-top-label > img:hover {
+  opacity: 0.5;
+}
+.time-picker-top-label > p {
+  font-weight: bold;
+  font-size: 14.7429px;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+#time-seperator {
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.time-picker-wrapper,
+.time-picker-type-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+.time-picker-wrapper > .up-arrow,
+.time-picker-wrapper > .down-arrow {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.time-picker-type-wrapper > div {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+.active-time-type {
+  background: #386eb4;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+}

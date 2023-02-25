@@ -1,0 +1,32 @@
+.toggle-wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+}
+.toggle-wrapper > input {
+  position: absolute;
+  opacity: 0;
+}
+.toggle-wrapper > label {
+  height: 15px;
+  width: 15px;
+  border-radius: 5px;
+  border: 1px solid #386eb4;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+.toggle-wrapper.circle > label {
+  border-radius: 100%;
+}
+.toggle-wrapper.circle > input:checked + label {
+  background-size: 9px;
+  background-position: 2px 3px;
+}
+.toggle-wrapper > input:checked + label {
+  background: #386eb4;
+  background-image: url(../../assests/images/wcheck.svg);
+  background-repeat: no-repeat;
+  background-position: 0.5px 1.5px;
+}
